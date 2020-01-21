@@ -4,9 +4,15 @@ $(document).ready(function(){
         
         
         var flavors = ['chocolate', 'strawberry', 'coffee', 'vanilla']
+        
 
         flavors.forEach(function(flavor){
-             $(".ice").append(flavor)
+//             $("#" + flavor).append(flavor)
+//             $("#" + flavor).append("Tim")
+
+            $(".text").append(flavor)
+            $(".text").append(" ")
+
         });
     });
 });  
